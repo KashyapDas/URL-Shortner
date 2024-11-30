@@ -13,8 +13,6 @@ router.get("/:shortnerId",async(req: any,res: any)=>{
             result : false,
         });
     }
-    // res.redirect()
-    // console.log(response);
     res.redirect(response.originalUrl);
 })
 

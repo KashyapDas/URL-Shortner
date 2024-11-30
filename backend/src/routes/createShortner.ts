@@ -22,7 +22,7 @@ router.post("/",createMiddleware,async(req : any,res : any)=>{
     res.json({
         result : true,
         msg : "Shortner Created...",
-        shortUrl : shortUrl
+        shortUrl : `http://localhost:3000/${shortUrl}`
     })
 })
 
