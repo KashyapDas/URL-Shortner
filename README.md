@@ -69,7 +69,7 @@ Transforming long, complex URLs into clean, manageable, and shareable links that
 ### Quick Start
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/url-shortener
+git clone https://github.com/KashyapDas/url-shortener
 
 # Install Dependencies
 npm install
@@ -80,10 +80,7 @@ npm run dev
 
 ## 🌈 Features Roadmap
 - [ ] User Authentication
-- [ ] Advanced Analytics Dashboard
 - [ ] Custom Domain Support
-- [ ] Rate Limiting
-- [ ] Link Expiration
 
 ## 🤝 Contribution Guidelines
 1. Fork the Project
