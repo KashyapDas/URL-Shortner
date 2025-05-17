@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 import shortnerProvider from "./routes/shortnerProvider";
 import createShortner from "./routes/createShortner";
 
