@@ -11,5 +11,5 @@ app.use(express.json());
 app.use("/create-url-shortner",createShortner);
 app.use("/",shortnerProvider);
 
-
-app.listen(PORT,()=>console.log("Server started successfully..."));
+export default app;
+// app.listen(PORT,()=>console.log("Server started successfully..."));
